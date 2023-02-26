@@ -10,7 +10,7 @@ Original file is located at
 """#Reddit BERT 분석"""
 
 import pandas as pd
-reddit = pd.read_csv('dataset2_processed.csv')
+reddit = pd.read_csv('dsm_data.csv')
 
 from sentence_transformers import SentenceTransformer, util
 model = SentenceTransformer('paraphrase-distilroberta-base-v1')
